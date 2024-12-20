@@ -1,0 +1,320 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-attachment: rgba(8, 15, 23, 1);
+}
+
+body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    line-height: 1.6;
+    color: #fff;
+    background-color: rgba(8, 15, 23, 1);
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #ffffff40;
+    padding: 10px 40px;
+    align-items: center;
+}
+
+.nav-links{
+    list-style-type: none;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.3rem;
+}
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.container {
+    width: 100%;
+}
+
+
+.container img{
+    width: 100vw;
+}
+
+h1, h2, h3, h4 {
+    margin-bottom: 10px;
+}
+
+.hero {
+    text-align: center;
+    background: rgba(8, 15, 23, 1);
+    width: 100vw;
+}
+
+.main-img{
+    width: 100%;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin: 2rem;
+    text-align: center;
+    
+}
+
+.hero p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.impact-metrics {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 50px 20px;
+    color: #fff;
+    gap: 40px;
+  }
+  
+  .metrics-title {
+    flex: 1;
+  }
+  
+  .metrics-content {
+    flex: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+  
+  .metric {
+    padding: 20px;
+    border-radius: 8px;
+    text-align: left;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    border-top: 1px solid rgba(255, 255, 255,0.16);
+  }
+  
+  
+  .metric h3 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 10px;
+  }
+  
+  .metric p {
+    font-size: 1rem;
+  }
+  
+  .metric:hover {
+    transform: scale(1.1);
+  }
+
+
+  .projects {
+    padding: 50px 20px;
+  }
+  
+  .projects .project-description {
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto 50px auto;
+  }
+  
+  .projects .project-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px 10px;
+    justify-items: center;
+  }
+  
+  .projects .project-item {
+    text-align: center;
+    width: 100%;
+    max-width: 450px;
+  }
+  .projects .project-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .projects .project-item img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  .projects .project-item h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    transition: color 0.3s ease;
+    text-align: left;
+  }
+  .projects .project-item p{
+    text-align: left;
+    color: gray;
+  }
+  
+  
+  .projects .project-item h3:hover {
+    color: #e74c3c;
+  }
+  
+  /* Description Section */
+  .description-highlights {
+    display: flex;
+    justify-content: flex-end;
+    padding: 50px 20px;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .description-container {
+    max-width: 50%;
+    font-size: 1.2rem;
+    color: #ccc;
+    line-height: 1.6;
+    text-align: right;
+    font-size: 24px
+  }
+
+  .testimonials-holder{
+    display: flex;
+    justify-content: center;
+    overflow: scroll;
+    gap: 30px;
+}
+
+.testimonials-header-div{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.testimonials-header{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.client-holder{
+    width: 288px;
+    min-width: 288px;
+    height: 178px;
+    background: rgba(255, 255, 255, 0.04);
+    border: 1.5px solid rgba(255, 255, 255, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding: 20px;
+    border-radius: 10px;
+    flex-wrap: wrap;
+}
+
+.client-detail-holder{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.client-logo{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+.client-detail{
+    font-size: 15px;
+}
+
+.client-company{
+    color: rgba(228, 218, 215, 0.62);
+}
+
+.client-comment{
+    padding-bottom: 8px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.footer{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px;
+    border-top: 1px solid #ffffff5a;
+}
+
+.footer-left-text{
+    font-family: "plus jakarta sans", sans-serif;
+    color: rgba(255, 255, 255, 0.457);
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.contact-btn{
+    width: 150px;
+    height: 48px;
+    color: rgba(255, 255, 255, 0.612);
+    border: 1px solid rgba(255, 255, 255, 0.378);
+    background-color: black;
+    font-family: "Plus jakarta sans", sans-serif;
+    font-weight: 500;
+    font-size: 17px;
+    border-radius: 5px;
+}
+
+.services{
+    display: flex;
+    justify-content: space-between;
+    padding: auto;
+    height: 120px;
+    margin: 80px;
+}
+
+.services-header{
+    color: white;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.services-actions{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+.services-links{
+    font-size: 18px;
+    font-weight: 500;
+    height: 24px;
+    margin-right: 25px;
+    color: white;
+}
+
+.floating-text-div{
+    display: flex;
+    padding: 50px;
+    gap: 50px;
+    margin: 50px;
+}
+
+.float-div, .empty{
+    flex: 1;
+}
+
+.floating-text{
+    text-align: left;
+    padding-right: 20px;
+    font-weight: 400;
+    font-size: 30px;
+}
